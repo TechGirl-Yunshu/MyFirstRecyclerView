@@ -11,18 +11,19 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            >
 
             <TextView
                 android:id = "@+id/title"
-                android:text="Hello"
+                android:text="Name"
                 android:paddingLeft="14dp"
                 android:paddingTop="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:textStyle="bold"
-                android:textSize="24dp"
+                android:textSize="20dp"
                 />
             <TextView
                 android:id="@+id/description"
@@ -31,10 +32,20 @@
                 android:layout_weight="1"
                 android:paddingTop="5dp"
                 android:paddingLeft="14dp"
-                android:text="Bye!"
+                android:text="Description"
                 android:textStyle="bold"
-                android:textSize="24dp"
-
+                android:textSize="20dp"
+                />
+            <TextView
+                android:id="@+id/rating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="5dp"
+                android:paddingLeft="14dp"
+                android:text="Rating:"
+                android:textStyle="bold"
+                android:textSize="20dp"
                 />
         </LinearLayout>
     </androidx.cardview.widget.CardView>

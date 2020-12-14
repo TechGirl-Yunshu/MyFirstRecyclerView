@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
         listItems = new ArrayList<>();
         for (int i = 0; i < 10; i++){
-            ListItem item = new ListItem("Item " + (i+1), " Description");
+            ListItem item = new ListItem("Item " + (i+1), " Description", "Great!");
 
             listItems.add(item);
         }
